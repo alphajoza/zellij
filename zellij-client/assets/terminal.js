@@ -11,6 +11,7 @@ import { build_link_handler } from "./links.js";
 export function initTerminal() {
     const term = new Terminal({
         fontFamily: "Monospace",
+        fontSize: 16,
         allowProposedApi: true,
         scrollback: 0,
     });
